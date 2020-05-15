@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Team Car RamRod</title>
+<link href="sweet%20alert/sweet-alert.css" rel="stylesheet" type="text/css">
+<link href="main.css" rel="stylesheet" type="text/css">
+
+<script src="javascript/jquery-2.1.1.min.js"></script>
+<script src="javascript/jquery.validate.js"></script>
+<script src="javascript/additional-methods.js"></script>
+<script src="sweet%20alert/sweet-alert.min.js"></script>
+<script src="javascript/smooth-scroll.js"></script>
+<script src="javascript/submit_form.js"></script>
+</head>
+
+<body>
+<div id="wrapper">
+  <!-- Splash page picture -->
+  <div id="splash_page">
+  
+    <!-- Navigation menu -->
+    
+    <div id="main_nav">
+  	  <div id="inner_nav">
+        <table id="header">
+          <tbody>
+            <tr>                      
+              <td id="title_nav"><span><a href="index.html" class="thistitle">Team Car RamRod</a></span></td>
+              <td><a href="about.html"><span class="nav">About</span></a></td>
+              <td><a href="downloads.html"><span class="nav">Downloads</span></a></td>
+              <td><a href="reports.html"><span class="nav">Reports</span></a></td>
+              <td><a href="resources.html"><span class="nav">Resources</span></a></td>
+              <td><a href="contact.html"><span class="nav">Contact</span></a></td>
+              <td><a href="forums.html"><span class="nav">Forums</span></a></td> 
+            </tr>            
+          </tbody>
+        </table>
+      </div>
+    <!-- End of navigation menu -->
+    </div>
+    
+    
+    <!-- Banner wrap -->
+    <div id="banner_wrap">
+      
+      <!-- Banner -->
+      <div id="banner">
+      
+      <!-- Project title -->
+      <h2 id="project_title">
+        An Analytic Honeypot for Virtualized Environments
+      <!-- End project title -->
+      </h2>
+      
+      <!-- Project description -->
+      <h2 id="project_description">
+        A Class Project at Sam Houston State University
+      <!-- End of project description -->
+      </h2>
+      
+      <!-- Downloads button -->
+      <div id="button_wrap">
+        <a href="downloads.html"><div id="downloads_button">
+        <span>Downloads</span>
+        </div></a>
+      <!-- End of downloads button -->
+      </div>
+        
+      <!-- End of banner -->
+      </div>
+      <!-- Content link -->
+      <div id="content_link">      
+        <!-- Content link indicator -->
+        <a id="content_link_indicator" class="scroll" href="#content_splash_wrap"></a>        
+      <!-- End of content link -->
+      </div>    
+    <!-- End of banner wrap -->
+    </div>     
+  <!-- End of splash page picture -->
+  </div>
+  
+  
+  
+  <!-- Content below the splash page -->
+  <!-- Currently holds: form submission -->
+  <div id="content_splash_wrap">
+    <!-- Content splash -->
+    <div id="content_splash">
+      <!-- Form wrap -->
+      <form id="form_wrap" name="form_wrap" method="POST">
+        <!-- Form title -->
+        <h3 id="form_title">Fill out this form to receive project updates
+        <!-- End of form title -->
+        </h3>
+         
+         <!-- Input wrap -->
+         <div id="input_wrap">      
+         
+        <!-- First label -->
+        <label for="first_name" id="first_label">First name<span class="required"> * </span>
+        <!-- End first label -->
+        </label>           
+            
+        <!-- First name input box -->
+        <input type="text" id="first_name" name="first_name">
+        <!-- End first name input box -->
+        
+        <!-- Last label -->
+        <label for="last_name" id="last_label">Last name<span class="required"> * </span>
+        <!-- End last label -->
+        </label>
+        
+        <!-- Last name input box -->
+        <input type="text" id="last_name" name="last_name">
+        <!-- End last name input box -->           
+        
+        <!-- Email label -->
+        <label for="email" id="email_label">Email<span class="required"> * </span>
+        <!-- End email label -->
+        </label> 
+        <!-- Email input box -->
+        <input type="email" id="email" name="email">
+        <!-- End email input box -->
+      
+        <!-- Choose label -->
+        <label id="choose_label">Choose One<span class="required"> * </span>
+        <!-- End choose label -->
+        </label> 
+        
+        <!-- Radio buttons -->
+        <label for="student" id="student_label" class="radio_label"><input type="radio" name="radio" id="student" value="student" class="radio_button">Student</label>
+        <label for="professional" id="professional_label" class="radio_label"><input type="radio" name="radio" id="professional" value="professional" class="radio_button">Professional</label>
+        <label for="other" id="other_radio_label" class="radio_label"><input type="radio" name="radio" id="other" value="other" class="radio_button">Other</label>
+        <!-- End radio buttons -->        
+        
+        <!-- Other input label -->
+        <label for="other_input" id="other_label">If other:</label>
+        <!-- End other input label -->
+        
+        <!-- Other input box -->
+        <input type="text" id="other_input">
+        <!-- End other input box -->
+        
+        <!-- Comment label -->
+        <label for="comment_box" id="comment_label">Comments
+        <!-- End email label -->
+        </label> 
+        
+        <!-- Comment input box -->
+        <textarea id="comment_box"></textarea>
+        <!-- End comment input box -->
+        
+          <!-- Button div -->
+          <div id="button_div">
+          <input type="reset" id="reset_button">       
+          <input type="submit" id="submit_button" value="Submit">
+          <!-- End button div -->
+          </div>
+            
+          <!-- End input wrap -->
+        </div>
+            
+      <!-- End form wrap -->
+      </form>     
+      
+    <!-- End of content splash -->
+    </div>
+    
+         
+      
+  <!-- End of content below the splash page -->
+  </div>
+   <!-- Footer -->
+      <div id="footer">
+        
+        <!-- Copyright wrap -->
+        <div id="copyright_wrap">
+          <h3>&copy; TeamCarRamRod</h3>
+        <!-- End of copyright wrap -->
+        </div>
+         
+      <!-- End of footer -->
+      </div>  
+  <!-- Hidden div for alert box -->
+  <div id="php_alert_box"></div>
+  
+</div>
+</body>
+</html>
